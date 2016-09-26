@@ -38,9 +38,7 @@ jspm_packages
 
 .idea/
 typings/
-dist/
 compiled/
 
 app/**/*.js
 app/**/*.js.map
-app/**/*.ngfactory.ts

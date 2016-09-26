@@ -6,9 +6,9 @@ import {HttpModule}    from '@angular/http';
 import {routing, appRoutingProviders} from './app.routing';
 
 import {AppComponent} from './app.component';
-import {HomeComponent} from './components/home';
-import {CvComponent} from './components/cv';
-import {ExperimentsComponent} from './components/experiments';
+import {HomeComponent} from './components/home.component';
+import {CvComponent} from './components/cv.component';
+import {ExperimentsComponent} from './components/experiments.component';
 
 
 @NgModule({

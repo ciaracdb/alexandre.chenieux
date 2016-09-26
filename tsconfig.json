@@ -1,6 +1,11 @@
 {
+  "files": [
+    "app/app.module.ts",
+    "app/main-prod.ts",
+    "./typings/index.d.ts"
+  ],
   "compilerOptions": {
-    "target": "es2015",
+    "target": "es5",
     "module": "es2015",
     "moduleResolution": "node",
     "declaration": false,
@@ -14,12 +19,11 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitUseStrict": false,
-    "noFallthroughCasesInSwitch": true,
-    "outDir": "./dist",
-    "rootDir": "./app"
+    "noFallthroughCasesInSwitch": true
   },
   "compileOnSave": false,
-  "files": [
-    "app/main.ts"
-  ]
+  "angularCompilerOptions": {
+    "genDir": "compiled",
+    "skipMetadataEmit" : true
+  }
 }
