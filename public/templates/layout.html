@@ -1,0 +1,19 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+		<div class="container-fluid">
+			<ul class="nav navbar-nav navbar-right">
+				<li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+					<a routerLink="/">Accueil</a>
+				</li>
+				<li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+					<a routerLink="/cv">CV</a>
+				</li>
+				<li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+					<a routerLink="/experiments">Experiences</a>
+				</li>
+			</ul>
+		</div>
+</nav>
+<div class="container-fluid">
+	<router-outlet></router-outlet>
+</div>

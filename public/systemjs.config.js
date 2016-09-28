@@ -22,8 +22,10 @@
             '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
             // other libraries
-            'rxjs':                       'npm:rxjs',
+            'rxjs': 'npm:rxjs',
             'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
+            'sharedb': 'compiled/sharedb-client.js',
+            'json0': 'compiled/json0.js'
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
@@ -35,6 +37,18 @@
                 defaultExtension: 'js'
             },
             'angular2-in-memory-web-api': {
+                main: './index.js',
+                defaultExtension: 'js'
+            },
+            'sharedb/lib/client': {
+                main: './index.js',
+                defaultExtension: 'js'
+            },
+            'sharedb/lib/db': {
+                main: './index.js',
+                defaultExtension: 'js'
+            },
+            'sharedb/lib': {
                 main: './index.js',
                 defaultExtension: 'js'
             }

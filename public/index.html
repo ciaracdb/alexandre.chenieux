@@ -1,0 +1,33 @@
+<html>
+<head>
+	<base href="/">
+	<title>Alexandre CHENIEUX</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/css/design.css">
+
+	<!---->
+	<script type="application/javascript" src="node_modules/core-js/client/shim.min.js"></script>
+	<script type="application/javascript" src="node_modules/zone.js/dist/zone.js"></script>
+	<script type="application/javascript" src="node_modules/reflect-metadata/Reflect.js"></script>
+	<script type="application/javascript" src="node_modules/systemjs/dist/system.src.js"></script>
+	<script type="application/javascript" src="compiled/sharedb-client.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+	<script type="application/javascript" src="systemjs.config.js"></script>
+	<script>
+		System.import('app').catch(function(err){ console.error(err); });
+	</script>
+	<!--
+	<script type="application/javascript" src="/node_modules/zone.js/dist/zone.js"></script>
+	<script type="application/javascript" src="/node_modules/reflect-metadata/Reflect.js"></script>
+	<script type="application/javascript" src="compiled/build.min.js"></script>
+	<!---->
+</head>
+
+<body>
+	<app>Loading...</app>
+</body>
+
+</html>

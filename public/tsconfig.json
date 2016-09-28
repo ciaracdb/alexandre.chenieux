@@ -8,10 +8,5 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false
-  },
-  "files": [
-    "app/app.module.ts",
-    "app/main.ts",
-    "./typings/index.d.ts"
-  ]
+  }
 }

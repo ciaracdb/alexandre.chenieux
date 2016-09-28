@@ -1,0 +1,9 @@
+node_modules/
+
+typings/
+compiled/
+
+app/**/*.js
+app/**/*.js.map
+
+styles/css/
