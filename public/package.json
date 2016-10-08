@@ -14,7 +14,7 @@
     "rollup": "rollup -c rollup.config.js",
     "ngc": "ngc -p tsconfig-prod.json",
     "minify": "uglifyjs compiled/build.js --screw-ie8 --compress --mangle --output compiled/build.min.js",
-    "browserify": "browserify node_modules/sharedb/lib/client/index.js --standalone ShareDB -o compiled/sharedb-client.js",
+    "browserify": "browserify node_modules/sharedb/lib/client/index.js --standalone ShareDB -o compiled/sharedb-client.js && browserify node_modules/ot-text/lib/index.js --standalone otText -o compiled/ot-text.js",
     "build": "npm run ngc && npm run rollup && npm run minify && gulp prod"
   },
   "license": "Apache-2.0",

@@ -1,9 +1,9 @@
 import {ModuleWithProviders} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
-import {HomeComponent} from './components/home.component';
-import {CvComponent} from './components/cv.component';
-import {ExperimentsComponent} from './components/experiments.component';
+import {HomeComponent} from './view.components/home.component';
+import {CvComponent} from './view.components/cv.component';
+import {ExperimentsComponent} from './view.components/experiments.component';
 
 const appRoutes: Routes = [
     {

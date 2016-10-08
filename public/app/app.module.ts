@@ -5,10 +5,14 @@ import {HttpModule}    from '@angular/http';
 
 import {routing, appRoutingProviders} from './app.routing';
 
+import {AceEditorComponent} from './components/ace.editor.component';
+
+import {ShareDBAceEditorService} from './services/sharedb.ace-editor.service';
+
 import {AppComponent} from './app.component';
-import {HomeComponent} from './components/home.component';
-import {CvComponent} from './components/cv.component';
-import {ExperimentsComponent} from './components/experiments.component';
+import {HomeComponent} from './view.components/home.component';
+import {CvComponent} from './view.components/cv.component';
+import {ExperimentsComponent} from './view.components/experiments.component';
 
 
 @NgModule({
@@ -22,10 +26,12 @@ import {ExperimentsComponent} from './components/experiments.component';
         AppComponent,
         HomeComponent,
         CvComponent,
-        ExperimentsComponent
+        ExperimentsComponent,
+        AceEditorComponent
     ],
     providers: [
-        appRoutingProviders
+        appRoutingProviders,
+        ShareDBAceEditorService
     ],
     bootstrap: [AppComponent]
 })

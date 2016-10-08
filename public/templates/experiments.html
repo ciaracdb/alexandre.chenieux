@@ -1,10 +1,11 @@
 <div class="panel panel-default">
-	<div class="panel-body">
-		<div id="editor">
-		</div>
+	<div id="jstree" style="float: left; width: 400px">
+		<ul>
+			<li>Root node 1</li>
+			<li>Root node 2</li>
+		</ul>
 	</div>
-
-	<script>
-
-	</script>
+	<div class="panel-body">
+		<ace-editor (ready)="editorReady($event)"></ace-editor>
+	</div>
 </div>

@@ -25,7 +25,9 @@
             'rxjs': 'npm:rxjs',
             'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
             'sharedb': 'compiled/sharedb-client.js',
-            'json0': 'compiled/json0.js'
+            'json0': 'compiled/json0.js',
+            'ot-text': 'compiled/ot-text.js',
+            'ace/range': 'node_modules/ace-builds/src-min/ace.js'
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
